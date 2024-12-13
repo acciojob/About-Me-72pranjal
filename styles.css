@@ -1,1 +1,69 @@
-
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: #fff;
+        }
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .header div {
+            font-size: 18px;
+        }
+        .content {
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .skills {
+            display: flex;
+            flex-direction: column;
+        }
+        .skill {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .skill img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .skill .label {
+            width: 120px;
+            font-weight: bold;
+        }
+        .skill .bar-container {
+            flex: 1;
+            background: #ddd;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .skill .bar {
+            height: 10px;
+            background: #007bff;
+        }
+        .about-me {
+            line-height: 1.6;
+        }
